@@ -10,15 +10,15 @@
         
         protected function _template($view = false) {
             $header['title'] = 'Basic Gallery';
-            $this->load->view('header',$header);
+            $this->load->view('template/header',$header);
             if(!$view) {
                 $data['content'] = '';
             }
             else{
                $data['content'] = modules::run($view);
             }
-            $this->load->view('content',$data);
-            $this->load->view('footer');
+            $this->load->view('template/content',$data);
+            $this->load->view('template/footer');
         }
         
     }
