@@ -1,0 +1,30 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 75px;
+  z-index: 10;
+}
+footer {
+  position: fixed;
+  bottom: 3px;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  z-index: 10;
+}
+#gallery {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;  
+}

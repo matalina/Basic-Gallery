@@ -1,4 +1,4 @@
-<div id="gallery" class="camera_wrap camera_emboss pattern_1">
+<div id="gallery" class="camera_wrap camera_emboss pattern_9">
     <div data-src="<?php echo base_url('images/slides/bridge.jpg');?>">
     </div>
     <div data-src="<?php echo base_url('images/slides/leaf.jpg');?>">
